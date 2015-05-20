@@ -40,10 +40,6 @@ CREATE TABLE [dbo].[Lop_Hoc](
 	[MaLop] [int] IDENTITY(1,1) NOT NULL,
 	[TenLop] [nvarchar](50) NULL,
  )
-CREATE TABLE [dbo].[Temp_LopHoc](
-	[MaLH] [int] NULL,
-	[TenLH] [nchar](10) NULL
-) ON [PRIMARY]
 
 )
 CREATE TABLE [dbo].[ThongTinLop](
